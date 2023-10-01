@@ -24,7 +24,7 @@ from os import system
 
 prefix = "y"
 intents = discord.Intents().all() # Set Discord Intents to default
-TOKEN = '' # put ur bot token here, dude
+TOKEN = 'MTE1Nzk0MTUxOTAxNDE3MDY1NA.G7uY2V.WKkv9G5tNh-YWUg1OTFg4w2zyRUrSS7w3Fi-8o' # put ur bot token here, dude
 
 
 
