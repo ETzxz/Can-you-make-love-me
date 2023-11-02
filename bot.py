@@ -24,7 +24,7 @@ from os import system
 
 prefix = "y"
 intents = discord.Intents().all() 
-TOKEN = 'MTA2MTkxNzgzODkxNjQ2MDU1NA.G3Jy0u.VZ0Uh0qGrMQD2L1fKJCf3agX5mbeAk4dM0ZDns' 
+TOKEN = '' 
 ownerid = ['1037259506717036575' , '1011802413130326046']
 CHANNELS = ['Dead People']
 VOICE = 'Dead People On The Top'
